@@ -49,3 +49,10 @@ int ft_printf(const char *format, ...)
     va_end(args);
     return len;
 }
+
+
+int main(void)
+{
+    ft_printf("Hello %s, number: %d, hex: %x\n", "Sissel", 42, 42);
+    return 0;
+}
